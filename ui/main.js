@@ -4,7 +4,7 @@ button.onClick = function ()
 {
     counter = counter + 1;
     var span=document.getElementById('count');
-    spanner.InnerHTML=counter.toString();
+    spanner.InnerHTML = counter.toString();
 };
 
 var marginLeft=0;
